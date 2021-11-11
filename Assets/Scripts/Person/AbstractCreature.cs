@@ -6,7 +6,7 @@ namespace Person
    {
        public int health = 100;
        
-       public void TakeDamage(int damage)
+       public virtual void TakeDamage(int damage)
        {
            health -= damage;
    

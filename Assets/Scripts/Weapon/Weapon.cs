@@ -1,3 +1,4 @@
+using System;
 using Person;
 using UnityEngine;
 
@@ -7,7 +8,7 @@ namespace Weapon
     {
         public float aimOffsetZ;
 
-        public GameObject shortWeb;
+        public GameObject ammo;
 
         public Transform shotDirection;
 
@@ -17,9 +18,17 @@ namespace Weapon
 
         private float _timeShot;
 
+        private AudioSource _shotAudio;
+
         public Weapon()
         {
-            _shotLogic = new RaycastShotLogic();
+            // _shotLogic = new RaycastShotLogic();
+            _shotLogic = new CollideShotLogic();
+        }
+
+        private void Start()
+        {
+            _shotAudio = GetComponent<AudioSource>();
         }
 
         // Update is called once per frame
@@ -43,7 +52,8 @@ namespace Weapon
             {
                 _timeShot = delay;
 
-                _shotLogic.Shot(shortWeb, position, difference, shotDirection);
+                _shotAudio.PlayOneShot(_shotAudio.clip);
+                _shotLogic.Shot(ammo, position, difference, shotDirection);
             }
             else
             {

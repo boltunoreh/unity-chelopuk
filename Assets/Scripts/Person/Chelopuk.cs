@@ -12,7 +12,7 @@ namespace Person
 
         public LayerMask whatIsGround;
 
-        public float speed;
+        public float speed = 1;
 
         public float jumpHeight;
         private bool _isGrounded;
