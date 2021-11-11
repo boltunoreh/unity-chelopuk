@@ -9,53 +9,41 @@ namespace Weapon
 
         public GameObject shortWeb;
 
-        public GameObject longWeb;
-
         public Transform shotDirection;
 
         public float delay;
 
+        private IShotLogic _shotLogic;
+
         private float _timeShot;
+
+        public Weapon()
+        {
+            _shotLogic = new RaycastShotLogic();
+        }
 
         // Update is called once per frame
         void Update()
         {
-            Vector3 difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
-            float rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
+            var position = transform.position;
+
+            var difference = Camera.main.ScreenToWorldPoint(Input.mousePosition) - position;
+            var rotateZ = Mathf.Atan2(difference.y, difference.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, rotateZ + aimOffsetZ);
-            Quaternion webRotation = Quaternion.Euler(0f, 0f, rotateZ);
 
-            //Length of the ray
-            float laserLength = 50f;
-        
-            int layerMask = LayerMask.GetMask("Enemies", "Ground");
-
-            //Get the first object hit by the ray
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, difference, laserLength, layerMask);
-
-            ShotOnLeftClick(webRotation, hit);
+            ShotOnLeftClick(position, difference);
 
             //Method to draw the ray in scene for debug purpose
-            Debug.DrawRay(transform.position, difference, Color.red);
+            Debug.DrawRay(position, difference, Color.red);
         }
 
-        private void ShotOnLeftClick(Quaternion webRotation, RaycastHit2D hit)
+        private void ShotOnLeftClick(Vector3 position, Vector3 difference)
         {
             if (_timeShot <= 0 && Input.GetMouseButtonDown(0))
             {
-                GameObject web = Instantiate(shortWeb, shotDirection.position, webRotation);
                 _timeShot = delay;
 
-                if (hit.collider != null)
-                {
-                    Enemy enemy = hit.transform.GetComponent<Enemy>();
-
-                    if (enemy != null)
-                    {
-                        enemy.TakeDamage(1);
-                        Debug.Log(enemy.name + ": " + enemy.health + " hp left");
-                    }
-                }
+                _shotLogic.Shot(shortWeb, position, difference, shotDirection);
             }
             else
             {
