@@ -13,7 +13,7 @@ public class GameController : MonoBehaviour
     {
         // TODO it's a hack. fix it
         _enemies = enemies.GetComponentsInChildren<Transform>();
-        Debug.Log(_enemies.Length);
+        // Debug.Log(_enemies.Length);
         if (_enemies.Length == 1)
         {
             Win();

@@ -26,13 +26,13 @@ namespace Weapon.Ammo
         // TODO move to collision shot logic?
         private void OnTriggerEnter2D(Collider2D hitInfo)
         {
-            if (hitInfo.tag != "Player")
+            if (!hitInfo.CompareTag("Player"))
             {
                 DestroyWeb();
             }
-
+            
             Enemy enemy = hitInfo.GetComponent<Enemy>();
-
+            
             if (enemy != null)
             {
                 enemy.TakeDamage(1);

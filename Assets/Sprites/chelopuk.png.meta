@@ -1,0 +1,1056 @@
+fileFormatVersion: 2
+guid: d3fb3d081d0c10e49a78b503274d71ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6272713005605293745
+    second: chelopuk_0
+  - first:
+      213: 9115122398384156033
+    second: chelopuk_1
+  - first:
+      213: -873086475847531700
+    second: chelopuk_2
+  - first:
+      213: -6601311610878724284
+    second: chelopuk_3
+  - first:
+      213: 2097824785595887911
+    second: chelopuk_4
+  - first:
+      213: 3758099370771789013
+    second: chelopuk_5
+  - first:
+      213: -5999915680018933532
+    second: chelopuk_6
+  - first:
+      213: -7280363946445147074
+    second: chelopuk_7
+  - first:
+      213: -6449196110196202514
+    second: chelopuk_8
+  - first:
+      213: 6777244502186829276
+    second: chelopuk_9
+  - first:
+      213: 5219691360259035523
+    second: chelopuk_10
+  - first:
+      213: 8221954365694273186
+    second: chelopuk_11
+  - first:
+      213: 6912565515755888467
+    second: chelopuk_12
+  - first:
+      213: -9107501048839178842
+    second: chelopuk_13
+  - first:
+      213: 1387984061073980471
+    second: chelopuk_14
+  - first:
+      213: -1407366063073245846
+    second: chelopuk_15
+  - first:
+      213: -9110729117323468725
+    second: chelopuk_16
+  - first:
+      213: 4688839595428268963
+    second: chelopuk_17
+  - first:
+      213: 7788027389596984859
+    second: chelopuk_18
+  - first:
+      213: -8624753774033430753
+    second: chelopuk_19
+  - first:
+      213: 1080177025304325777
+    second: chelopuk_20
+  - first:
+      213: -6959438781877440300
+    second: chelopuk_21
+  - first:
+      213: -3271149262320973062
+    second: chelopuk_22
+  - first:
+      213: -5249072599371610450
+    second: chelopuk_23
+  - first:
+      213: 4761843410262386302
+    second: chelopuk_24
+  - first:
+      213: -7305702121578770585
+    second: chelopuk_25
+  - first:
+      213: 3243452657427822933
+    second: chelopuk_26
+  - first:
+      213: -12598921229372670
+    second: chelopuk_27
+  - first:
+      213: 2999723846513962370
+    second: chelopuk_28
+  - first:
+      213: 6518542719602598051
+    second: chelopuk_29
+  - first:
+      213: -2347409123142509855
+    second: chelopuk_30
+  - first:
+      213: -733905691669649022
+    second: chelopuk_31
+  - first:
+      213: -3684145429853037512
+    second: chelopuk_32
+  - first:
+      213: 8760317898694725934
+    second: chelopuk_33
+  - first:
+      213: 591562513842899815
+    second: chelopuk_34
+  - first:
+      213: -117260465769813243
+    second: chelopuk_35
+  - first:
+      213: -1541477419464283351
+    second: chelopuk_36
+  - first:
+      213: -6056916155422393640
+    second: chelopuk_37
+  - first:
+      213: -5609186509396794217
+    second: chelopuk_38
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chelopuk_0
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 19
+        width: 34
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f417ce271c8d2f8a0800000000000000
+      internalID: -6272713005605293745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 18
+        width: 43
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18de4eff68b6f7e70800000000000000
+      internalID: 9115122398384156033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 18
+        width: 32
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4309ecd97c22e3f0800000000000000
+      internalID: -873086475847531700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 20
+        width: 48
+        height: 127
+      alignment: 9
+      pivot: {x: 0.45069695, y: 0.40310177}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44779eda01e6364a0800000000000000
+      internalID: -6601311610878724284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 23
+        width: 67
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4717421, y: 0.38548943}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721f37a1788fc1d10800000000000000
+      internalID: 2097824785595887911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_5
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 29
+        width: 86
+        height: 118
+      alignment: 9
+      pivot: {x: 0.45046714, y: 0.3596114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4b8796773772430800000000000000
+      internalID: 3758099370771789013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 19
+        width: 50
+        height: 128
+      alignment: 9
+      pivot: {x: 0.47160158, y: 0.3964634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8dc2a5a740cbca0800000000000000
+      internalID: -5999915680018933532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 23
+        width: 69
+        height: 124
+      alignment: 9
+      pivot: {x: 0.4999991, y: 0.37785542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3473905093f6fa90800000000000000
+      internalID: -7280363946445147074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_8
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 38
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.55011487, y: 0.3002542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3acec9e4adf76a0800000000000000
+      internalID: -6449196110196202514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_9
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 40
+        width: 86
+        height: 107
+      alignment: 9
+      pivot: {x: 0.5605398, y: 0.2920972}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5a0d4a7fb9d0e50800000000000000
+      internalID: 6777244502186829276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_10
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 38
+        width: 85
+        height: 109
+      alignment: 9
+      pivot: {x: 0.55568415, y: 0.3002542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3815a6513a1107840800000000000000
+      internalID: 5219691360259035523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_11
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 27
+        width: 65
+        height: 120
+      alignment: 9
+      pivot: {x: 0.72573245, y: 0.36589527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6edae0fef3a1270800000000000000
+      internalID: 8221954365694273186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_12
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 27
+        width: 56
+        height: 120
+      alignment: 9
+      pivot: {x: 0.6859414, y: 0.34617412}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f9e3556bd5eef50800000000000000
+      internalID: 6912565515755888467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_13
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 27
+        width: 79
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48202476, y: 0.36589527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a57178bc08ab9180800000000000000
+      internalID: -9107501048839178842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_14
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 18
+        width: 54
+        height: 129
+      alignment: 9
+      pivot: {x: 0.30716732, y: 0.40827334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cf732562c134310800000000000000
+      internalID: 1387984061073980471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_15
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 36
+        width: 60
+        height: 111
+      alignment: 9
+      pivot: {x: 0.33434042, y: 0.31238136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65449da508087ce0800000000000000
+      internalID: -1407366063073245846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_16
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 35
+        width: 58
+        height: 112
+      alignment: 9
+      pivot: {x: 0.32046825, y: 0.31828246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4060257320309180800000000000000
+      internalID: -9110729117323468725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_17
+      rect:
+        serializedVersion: 2
+        x: 1929
+        y: 34
+        width: 84
+        height: 113
+      alignment: 9
+      pivot: {x: 0.52253795, y: 0.3157021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc94ef4ca121140800000000000000
+      internalID: 4688839595428268963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_18
+      rect:
+        serializedVersion: 2
+        x: 2043
+        y: 19
+        width: 62
+        height: 128
+      alignment: 9
+      pivot: {x: 0.6984824, y: 0.3964634}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16e0f9e5a1a41c60800000000000000
+      internalID: 7788027389596984859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_19
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 19
+        width: 67
+        height: 128
+      alignment: 9
+      pivot: {x: 0.28806773, y: 0.39276576}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17178f6328be4880800000000000000
+      internalID: -8624753774033430753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_20
+      rect:
+        serializedVersion: 2
+        x: 2295
+        y: 19
+        width: 60
+        height: 128
+      alignment: 9
+      pivot: {x: 0.30278727, y: 0.3890679}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e6dcf084f8dfe00800000000000000
+      internalID: 1080177025304325777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_21
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 18
+        width: 43
+        height: 129
+      alignment: 9
+      pivot: {x: 0.38992664, y: 0.39726594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d03e12fc4b1b6f90800000000000000
+      internalID: -6959438781877440300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_22
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 18
+        width: 47
+        height: 129
+      alignment: 9
+      pivot: {x: 0.4194336, y: 0.39359686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afac314c31b8a92d0800000000000000
+      internalID: -3271149262320973062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_23
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 18
+        width: 52
+        height: 129
+      alignment: 9
+      pivot: {x: 0.37256798, y: 0.39726594}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6083a184c8727b0800000000000000
+      internalID: -5249072599371610450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_24
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 19
+        width: 47
+        height: 128
+      alignment: 9
+      pivot: {x: 0.4697837, y: 0.38537014}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7669b03a57751240800000000000000
+      internalID: 4761843410262386302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_25
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 20
+        width: 39
+        height: 127
+      alignment: 9
+      pivot: {x: 0.47572365, y: 0.38819435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76fca70b0aeec9a90800000000000000
+      internalID: -7305702121578770585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_26
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 20
+        width: 66
+        height: 127
+      alignment: 9
+      pivot: {x: 0.27768776, y: 0.38819435}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55938c3e10f030d20800000000000000
+      internalID: 3243452657427822933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_27
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 18
+        width: 36
+        height: 129
+      alignment: 9
+      pivot: {x: 0.52629256, y: 0.39359686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203f19f095d33dff0800000000000000
+      internalID: -12598921229372670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_28
+      rect:
+        serializedVersion: 2
+        x: 3201
+        y: 18
+        width: 34
+        height: 129
+      alignment: 9
+      pivot: {x: 0.49999282, y: 0.38625875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28dabb7f1f821a920800000000000000
+      internalID: 2999723846513962370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_29
+      rect:
+        serializedVersion: 2
+        x: 3314
+        y: 20
+        width: 38
+        height: 127
+      alignment: 9
+      pivot: {x: 0.45017603, y: 0.38446748}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a02f171114867a50800000000000000
+      internalID: 6518542719602598051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_30
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 18
+        width: 34
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39359686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea5490f6d35c6fd0800000000000000
+      internalID: -2347409123142509855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_31
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 18
+        width: 34
+        height: 129
+      alignment: 9
+      pivot: {x: 0.5417624, y: 0.38992783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 289a46d69a4a0d5f0800000000000000
+      internalID: -733905691669649022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_32
+      rect:
+        serializedVersion: 2
+        x: 3642
+        y: 18
+        width: 49
+        height: 129
+      alignment: 9
+      pivot: {x: 0.577273, y: 0.38258964}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c1bb040494fdcc0800000000000000
+      internalID: -3684145429853037512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_33
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 23
+        width: 78
+        height: 124
+      alignment: 9
+      pivot: {x: 0.52427006, y: 0.37785542}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e211237f6b6e29970800000000000000
+      internalID: 8760317898694725934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_34
+      rect:
+        serializedVersion: 2
+        x: 3855
+        y: 23
+        width: 86
+        height: 124
+      alignment: 9
+      pivot: {x: 0.47248024, y: 0.36258727}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b0b0cd8f6a53800800000000000000
+      internalID: 591562513842899815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_35
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 23
+        width: 82
+        height: 124
+      alignment: 9
+      pivot: {x: 0.49999702, y: 0.3740384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50be7974a386f5ef0800000000000000
+      internalID: -117260465769813243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_36
+      rect:
+        serializedVersion: 2
+        x: 4081
+        y: 25
+        width: 73
+        height: 122
+      alignment: 9
+      pivot: {x: 0.55187154, y: 0.356455}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92bab8f34729b9ae0800000000000000
+      internalID: -1541477419464283351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_37
+      rect:
+        serializedVersion: 2
+        x: 4195
+        y: 23
+        width: 73
+        height: 124
+      alignment: 9
+      pivot: {x: 0.55835295, y: 0.37022135}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da39b9f8d281fba0800000000000000
+      internalID: -6056916155422393640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chelopuk_38
+      rect:
+        serializedVersion: 2
+        x: 4307
+        y: 25
+        width: 75
+        height: 122
+      alignment: 9
+      pivot: {x: 0.53154945, y: 0.3797326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794ad74a69a2822b0800000000000000
+      internalID: -5609186509396794217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

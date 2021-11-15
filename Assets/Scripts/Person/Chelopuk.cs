@@ -1,23 +1,20 @@
-﻿using UnityEngine;
+﻿using Person.WalkStrategy;
+using UnityEngine;
 
 namespace Person
 {
     public class Chelopuk : AbstractCreature
     {
-        private const float SpeedLimit = 10;
-        private const float GroundRadius = 0.2f;
-
+        // TODO move somewhere?
         public GameController gameController;
-        public Transform groundCheck;
-
-        public LayerMask whatIsGround;
-
-        public float speed = 1;
-
-        public float jumpHeight;
-        private bool _isGrounded;
 
         private Vector2 _startPosition;
+
+        public Chelopuk()
+        {
+            // TODO DI
+            _walkStrategy = new RigidbodyAddForceWalkStrategy();
+        }
 
         // Start is called before the first frame update
         void Start()
@@ -25,9 +22,9 @@ namespace Person
             _startPosition = transform.position;
         }
 
-        private void FixedUpdate()
+        protected new void FixedUpdate()
         {
-            _isGrounded = Physics2D.OverlapCircle(groundCheck.position, GroundRadius, whatIsGround);
+            base.FixedUpdate();
 
             if (transform.position.y < -15)
             {
@@ -39,34 +36,22 @@ namespace Person
         // Update is called once per frame
         void Update()
         {
-            var rigidbody2DComponent = GetComponent<Rigidbody2D>();
             if (Input.GetKey(KeyCode.D))
             {
-                // transform.position += new Vector3(speed, 0, 0);
-                Debug.Log(rigidbody2DComponent.velocity.x);
-                // transform.position += new Vector3(-speed, 0, 0);
-                if (rigidbody2DComponent.velocity.x < SpeedLimit)
-                {
-                    rigidbody2DComponent.AddForce(new Vector2(speed, 0));
-                }
+                Walk(Vector2.right);
             }
 
             if (Input.GetKey(KeyCode.A))
             {
-                Debug.Log(rigidbody2DComponent.velocity.x);
-                // transform.position += new Vector3(-speed, 0, 0);
-                if (rigidbody2DComponent.velocity.x > -SpeedLimit)
-                {
-                    rigidbody2DComponent.AddForce(new Vector2(-speed, 0));
-                }
+                Walk(Vector2.left);
             }
 
-            if (_isGrounded && Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                rigidbody2DComponent.AddForce(new Vector2(0, jumpHeight));
+                Jump();
             }
         }
-        
+
         protected override void Die()
         {
             gameObject.SetActive(false);
