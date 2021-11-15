@@ -22,7 +22,7 @@ namespace Person
         public Enemy()
         {
             // TODO DI
-            _walkStrategy = new PositionWalkStrategy();
+            WalkStrategy = new PositionWalkStrategy();
         }
 
         private void Start()

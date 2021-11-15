@@ -19,15 +19,14 @@ namespace Person
 
        public Transform groundCheck;
 
-       public LayerMask groundLayerMask;
+       protected bool IsGrounded;
 
-       private bool _isGrounded;
-
-       protected new IWalkStrategy _walkStrategy;
+       protected new IWalkStrategy WalkStrategy;
 
        protected void FixedUpdate()
        {
-           _isGrounded = Physics2D.OverlapCircle(groundCheck.position, GroundRadius, groundLayerMask);
+           int groundLayerMask = 1 << LayerMask.NameToLayer("Ground") | 1 << LayerMask.NameToLayer("Enemies");
+           IsGrounded = Physics2D.OverlapCircle(groundCheck.position, GroundRadius, groundLayerMask);
        }
 
        public virtual void TakeDamage(int damage)
@@ -42,13 +41,13 @@ namespace Person
 
        protected void Walk(Vector2 direction)
        {
-           _walkStrategy.Walk(gameObject, direction, speed, speedLimit);
+           WalkStrategy.Walk(gameObject, direction, speed, speedLimit);
        }
        
        protected void Jump()
        {
-           Debug.Log("Jump! isGr: " + _isGrounded);
-           if (_isGrounded)
+           Debug.Log("Jump! isGr: " + IsGrounded);
+           if (IsGrounded)
            {
                GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpHeight));
            }

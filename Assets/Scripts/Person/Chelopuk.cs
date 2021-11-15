@@ -10,15 +10,23 @@ namespace Person
 
         private Vector2 _startPosition;
 
+        private Animator _animator;
+        private Rigidbody2D _rigidbody;
+        private SpriteRenderer _sprite;
+
         public Chelopuk()
         {
             // TODO DI
-            _walkStrategy = new RigidbodyAddForceWalkStrategy();
+            WalkStrategy = new RigidbodyAddForceWalkStrategy();
         }
 
         // Start is called before the first frame update
         void Start()
         {
+            _animator = GetComponent<Animator>();
+            _rigidbody = GetComponent<Rigidbody2D>();
+            _sprite = GetComponent<SpriteRenderer>();
+
             _startPosition = transform.position;
         }
 
@@ -29,7 +37,7 @@ namespace Person
             if (transform.position.y < -15)
             {
                 transform.position = _startPosition;
-                GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+                _rigidbody.velocity = Vector2.zero;
             }
         }
 
@@ -39,16 +47,38 @@ namespace Person
             if (Input.GetKey(KeyCode.D))
             {
                 Walk(Vector2.right);
-            }
+                _sprite.flipX = false;
 
+                if (IsGrounded)
+                {
+                    _animator.Play("player_run");
+                }
+            }
+            
             if (Input.GetKey(KeyCode.A))
             {
                 Walk(Vector2.left);
-            }
+                _sprite.flipX = true;
 
+                if (IsGrounded)
+                {
+                    _animator.Play("player_run");
+                }
+            }
+            
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Jump();
+            }
+            
+            if (_rigidbody.velocity == Vector2.zero)
+            {
+                _animator.Play("player_idle");
+            }
+
+            if (!IsGrounded)
+            {
+                _animator.Play("player_jump");
             }
         }
 
